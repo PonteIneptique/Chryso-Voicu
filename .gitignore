@@ -1,3 +1,20 @@
+freestyl
+.~lock*
+512-dev-nopos/
+First1KGreek/
+LM/
+Logger_custom_plot/
+canonical-greekLit
+final-model.pt
+goodboy/
+lightning_logs
+old/
+patres/
+tagged/
+*.zip
+*.html
+*.png
+*.csv
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
