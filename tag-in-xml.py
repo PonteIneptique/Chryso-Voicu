@@ -25,7 +25,6 @@ import sys
 
 SENTENCE_SPLITTER = re.compile(r"(?<=[!?\.])")
 texts = pandas.read_csv(sys.argv[1])
-texts = texts[~texts.title.str.contains("Dub\.|Sp\.|Fragm|Excerpt|(e cod\.)|Suda|recensio|fragm|sp\.|dub\.|(fort\. auctore)|Scholia")]
 texts = texts.sort_values("tokens")
 
 tagger = SequenceTagger.load('final-model.pt')
